@@ -13,6 +13,10 @@ function addNewLiOnClick(){
   document.querySelector('input').value = "";
 }
 
+function clearEmployeeListOnLinkClick() {
+  document.querySelector('ul').remove(); 
+}
+
 function preventRefreshOnSubmit(){
     document.querySelector('form').addEventListener('submit', function(event){
       event.preventDefault()
