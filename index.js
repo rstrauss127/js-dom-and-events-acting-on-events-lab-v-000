@@ -8,7 +8,7 @@ function addNewElementAsLi() {
   document.querySelector('ul.employee-list').appendChild(li);
 }
 
-function addNewLiOnClick()() {
+function addNewLiOnClick(){
 
 }
 
