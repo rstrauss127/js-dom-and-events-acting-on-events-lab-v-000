@@ -10,7 +10,7 @@ function addNewElementAsLi() {
 
 function addNewLiOnClick(){
   document.querySelector('form input:last-child').addEventListener('click', addNewElementAsLi());
-  document.querySelector('input').innerHTML.remove();
+  document.querySelector('input').value = "";
 }
 
 function preventRefreshOnSubmit(){
