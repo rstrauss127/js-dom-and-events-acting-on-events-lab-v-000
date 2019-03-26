@@ -9,7 +9,7 @@ function addNewElementAsLi() {
 }
 
 function addNewLiOnClick()() {
-  
+
 }
 
 function preventRefreshOnSubmit(){
