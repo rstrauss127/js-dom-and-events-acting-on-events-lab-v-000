@@ -20,7 +20,7 @@ function clearEmployeeListOnLinkClick() {
     for(i=0; i <a.length; i++) {
       a.value = "";
     }
-  })
+  });
 }
 
 function preventRefreshOnSubmit(){
