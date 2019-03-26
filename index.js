@@ -8,10 +8,15 @@ function addNewElementAsLi() {
   document.querySelector('ul.employee-list').appendChild(li);
 }
 
+function addNewLiOnClick()() {
+  
+}
+
 function preventRefreshOnSubmit(){
     document.querySelector('form').addEventListener('submit', function(event){
       event.preventDefault()
     })
 }
+
 
 preventRefreshOnSubmit()
